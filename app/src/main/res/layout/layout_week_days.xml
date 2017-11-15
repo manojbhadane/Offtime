@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7">
+
+    <TextView
+        android:id="@+id/sun"
+        style="@style/weekday"
+        android:text="S" />
+
+    <TextView
+        android:id="@+id/mon"
+        style="@style/weekday"
+        android:text="M" />
+
+    <TextView
+        android:id="@+id/tue"
+        style="@style/weekday"
+        android:text="T" />
+
+    <TextView
+        android:id="@+id/wed"
+        style="@style/weekday"
+        android:text="W" />
+
+    <TextView
+        android:id="@+id/Thr"
+        style="@style/weekday"
+        android:text="T" />
+
+    <TextView
+        android:id="@+id/fri"
+        style="@style/weekday"
+        android:text="F" />
+
+    <TextView
+        android:id="@+id/sat"
+        style="@style/weekday"
+        android:text="S" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <!-- view background color -->
+    <solid android:color="@color/colorPrimary" >
+    </solid>
+
+    <!-- view border color and width -->
+    <stroke
+        android:width="0dp"
+        android:color="#03E0FD" >
+    </stroke>
+
+    <size
+        android:height="12dp"
+        android:width="12dp" />
+
+    <!-- If you want to add some padding -->
+    <!--
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" >
+    </padding>
+
+
+
+    -->
+
+
+    <!-- Here is the corner radius -->
+    <corners android:radius="10dp" >
+    </corners>
+
+</shape>
